@@ -5,6 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.servidor.HelloController">
     <padding>
@@ -13,4 +14,10 @@
 
     <Label fx:id="welcomeText"/>
     <Button text="Hello!" onAction="#onHelloButtonClick"/>
+    <Label text="Server Node Location"/>
+    <Label text="IP:"/>
+    <Label text="PORT:"/>
+    <Label text="BlockChain Action and Messages:"/>
+    <Button fx:id="btnsummary">Summary</Button>  <Button fx:id="btnbalances">Balances</Button>
+    <TextArea>  </TextArea>
 </VBox>
